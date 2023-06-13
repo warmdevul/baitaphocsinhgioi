@@ -11,6 +11,6 @@ for i in range(2, int(n)+1):
 
 # create a file & write the result in it
 file_new = open("tong.out", mode="w")
-file_new.write(str(s))
+file_new.write(str(round(s, 3)))
 
 # a good dev always knows how to optimize his code
